@@ -1,0 +1,609 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color:beige;
+}
+
+.top_border{
+	position: absolute;
+	height: 90px;
+	width: 100.4%;
+	background: #f4b73a;
+	margin: none;
+	margin-left: -0.5em;
+}
+
+.top_border img{
+	width: 120px;
+	height: 70px;
+	margin-top: 12px;
+	margin-left: 34em;
+}
+
+.top_border button{
+	position:  relative;
+	text-align:center;
+	top: -1.2em;
+	left: 23em;
+	font-size: 24px;
+	color: #f4b73a;
+	background-color: black;
+	width: 120px;
+	height: 40px;
+	border-radius: 14px;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	border: none;
+}
+
+.button-12{
+	position: relative;
+	text-align: center;
+	top: 1.2em;
+	left: 29em;
+	font-size: 24px;
+	color: black;
+	background-color: #f4b73a;
+	width: 120px;
+	height: 40px;
+	border-radius: 14px;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	border: none;
+}
+
+.button-13{
+	position: relative;
+	text-align: center;
+	top: 1.2em;
+	left: 31em;
+	font-size: 24px;
+	color: black;
+	background-color: #f4b73a;
+	width: 120px;
+	height: 40px;
+	border-radius: 14px;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	border: none;
+}
+
+.button-14{
+	position: relative;
+	text-align: center;
+	top: 1.2em;
+	left: 32.5em;
+	font-size: 24px;
+	color: black;
+	background-color: #f4b73a;
+	width: 120px;
+	height: 40px;
+	border-radius: 14px;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	border: none;
+}
+
+.container{
+	position: absolute;
+	left: 48%;
+	top: 130px;
+	align-content: center;
+}
+
+.container label{
+	color: black;
+	font-size: 34px;
+	font-family: 'Roboto', sans-serif;
+	color: black;
+	margin-left: -1.5em;
+	font-weight: bold;
+}
+
+.centers{
+	position: fixed;
+	top: 200px;
+	left: 450px;
+	background: white;
+	width: 970px;
+	height: 210px;
+	border-radius: 8px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	padding-top: 1em;
+}
+
+.centers label{
+	color: #000000;
+	font-size: 24px;
+	font-family: 'Roboto', sans-serif;
+	margin-left: 1em;
+}
+
+.centers p{
+	margin-top: 5px;
+	color: #000000;
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	margin-left: 1.5em;
+}
+
+.centers button{
+	color: black;
+	margin-top: -55px;
+	text-align: right;
+	margin-left: 4em;
+	font-size: 20px;
+	width: 100px;
+	border: none;
+	background: none;
+}
+
+button:hover {
+	opacity: 0.3;
+}
+
+.alfa{
+	position: relative;
+	float: left;
+	text-align: center;
+	margin-left: 1em;
+}
+
+.alfa img{
+	height: 100px;
+	width: 100px;
+	margin-left: 10px;
+	border: .5px solid gray;
+	border-radius: 5px;
+}
+
+.alfa label{
+	font-size: 16px;
+	color: black;
+}
+
+.seven{
+	position: relative;
+	float: left;
+	text-align: center;
+	margin-left: 3.5em;
+}
+
+.seven img{
+	height: 100px;
+	width: 100px;
+	border: .5px solid gray;
+	border-radius: 5px;
+}
+
+.seven label{
+	font-size: 16px;
+	color: black;
+	margin-left: -0.3em;
+}
+
+.ministop{
+	position: relative;
+	float: left;
+	text-align: center;
+	margin-left: 3.5em;
+}
+
+.ministop img{
+	height: 100px;
+	width: 100px;
+	border: .5px solid gray;
+	border-radius: 5px;
+}
+
+.ministop label{
+	font-size: 16px;
+	color: black;
+	margin-left: -0.2em;
+}
+
+.robin{
+	position: relative;
+	float: left;
+	text-align: center;
+	margin-left: 3.7em;
+}
+
+.robin img{
+	height: 100px;
+	width: 100px;
+	border: .5px solid gray;
+	border-radius: 5px;
+}
+
+.robin label{
+	font-size: 16px;
+	color: black;
+	margin-left: 0.1em;
+}
+
+.bayad{
+	position: relative;
+	float: left;
+	text-align: center;
+	margin-left: 3.9em;
+}
+
+.bayad img{
+	height: 100px;
+	width: 100px;
+	border: .5px solid gray;
+	border-radius: 5px;
+}
+
+.bayad label{
+	font-size: 16px;
+	color: black;
+	margin-left: 0.2em;
+}
+
+.palawan{
+	position: relative;
+	float: left;
+	text-align: center;
+	margin-left: 3.8em;
+}
+
+.palawan img{
+	height: 100px;
+	width: 100px;
+	border: .5px solid gray;
+	border-radius: 5px;
+}
+
+.palawan label{
+	font-size: 16px;
+	color: black;
+	margin-left: 0.2em;
+}
+
+.puregold{
+	position: relative;
+	left: 300px;
+	float: left;
+	text-align: center;
+}
+.puregold img{
+	height: 100px;
+	width: 100px;
+	border: .5px solid gray;
+	border-radius: 5px;
+}
+
+.alfa:hover, .seven:hover, .ministop:hover, .robin:hover, .bayad:hover, .palawan:hover img{
+	opacity: 0.3;
+}
+
+.banks{
+	position: fixed;
+	left: 450px;
+	background: white;
+	width: 970px;
+	height: 210px;
+	border-radius: 8px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	padding-top: 1em;
+	margin-top: 26em;
+}
+
+.banks label{
+	color: #000000;
+	font-size: 24px;
+	font-family: 'Roboto', sans-serif;
+	margin-left: 1em;
+}
+
+.banks p{
+	margin-top: 5px;
+	color: #000000;
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	margin-left: 1.5em;
+}
+
+.banks button{
+	color: black;
+	margin-top: -55px;
+	text-align: right;
+	margin-left: 4em;
+	font-size: 20px;
+	width: 100px;
+	border: none;
+	background: none;
+}
+
+.bdo{
+	position: relative;
+	float: left;
+	text-align: center;
+	margin-left: 1em;
+}
+
+.bdo img{
+	height: 100px;
+	width: 100px;
+	margin-left: 10px;
+	border: .5px solid gray;
+	border-radius: 5px;
+}
+
+.bdo label{
+	font-size: 16px;
+	color: black;
+	margin-left: 0.2em;
+}
+
+.bpi{
+	position: relative;
+	float: left;
+	text-align: center;
+	margin-left: 3.5em;
+}
+
+.bpi img{
+	height: 100px;
+	width: 100px;
+	border: .5px solid gray;
+	border-radius: 5px;
+}
+
+.bpi label{
+	font-size: 16px;
+	color: black;
+	margin-left: 0em;
+}
+
+.union{
+	position: relative;
+	float: left;
+	text-align: center;
+	margin-left: 3.7em;
+}
+
+.union img{
+	height: 100px;
+	width: 100px;
+	border: .5px solid gray;
+	border-radius: 5px;
+}
+
+.union label{
+	font-size: 16px;
+	color: black;
+	margin-left: 0em;
+}
+
+.aub{
+	position: relative;
+	float: left;
+	text-align: center;
+	margin-left: 3.6em;
+}
+
+.aub img{
+	height: 100px;
+	width: 100px;
+	border: .5px solid gray;
+	border-radius: 5px;
+}
+
+.aub label{
+	font-size: 16px;
+	color: black;
+	margin-left: 0em;
+}
+
+.east{
+	position: relative;
+	float: left;
+	text-align: center;
+	margin-left: 3.9em;
+}
+
+.east img{
+	height: 100px;
+	width: 100px;
+	border: .5px solid gray;
+	border-radius: 5px;
+}
+
+.east label{
+	font-size: 16px;
+	color: black;
+	margin-left: 0em;
+}
+
+.china{
+	position: relative;
+	float: left;
+	text-align: center;
+	margin-left: 3.6em;
+}
+
+.china img{
+	height: 100px;
+	width: 100px;
+	border: .5px solid gray;
+	border-radius: 5px;
+}
+
+.china label{
+	font-size: 16px;
+	color: black;
+	margin-left: 0em;
+}
+
+.bdo:hover, .bpi:hover, .union:hover, .aub:hover, .east:hover, .china:hover img{
+	opacity: 0.3;
+}
+
+.partners{
+	position: fixed;
+	left: 450px;
+	background: white;
+	width: 970px;
+	height: 210px;
+	border-radius: 8px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	padding-top: 1em;
+	margin-top: 42em;
+}
+
+.partners label{
+	color: #000000;
+	font-size: 24px;
+	font-family: 'Roboto', sans-serif;
+	margin-left: 1em;
+}
+
+.partners p{
+	margin-top: 5px;
+	color: #000000;
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	margin-left: 1.5em;
+}
+
+.partners button{
+	color: black;
+	margin-top: -55px;
+	text-align: right;
+	margin-left: 4em;
+	font-size: 20px;
+	width: 100px;
+	border: none;
+	background: none;
+}
+
+.paypal{
+	position: relative;
+	float: left;
+	text-align: center;
+	margin-left: 1em;
+}
+
+.paypal img{
+	height: 100px;
+	width: 100px;
+	margin-left: 10px;
+	border: .5px solid gray;
+	border-radius: 5px;
+}
+
+.paypal label{
+	font-size: 16px;
+	color: black;
+	margin-left: 0em;
+}
+
+.western{
+	position: relative;
+	float: left;
+	text-align: center;
+	margin-left: 3.7em;
+}
+
+.western img{
+	height: 100px;
+	width: 100px;
+	border: .5px solid gray;
+	border-radius: 5px;
+}
+
+.western label{
+	font-size: 16px;
+	color: black;
+	margin-left: 0em;
+}
+
+.cebuana{
+	position: relative;
+	float: left;
+	text-align: center;
+	margin-left: 3.5em;
+}
+
+.cebuana img{
+	height: 100px;
+	width: 100px;
+	border: .5px solid gray;
+	border-radius: 5px;
+}
+
+.cebuana label{
+	font-size: 16px;
+	color: black;
+	margin-left: 0em;
+}
+
+.ml{
+	position: relative;
+	float: left;
+	text-align: center;
+	margin-left: 3.6em;
+}
+
+.ml img{
+	height: 100px;
+	width: 100px;
+	border: .5px solid gray;
+	border-radius: 5px;
+}
+
+.ml label{
+	font-size: 16px;
+	color: black;
+	margin-left: 0em;
+}
+
+.money{
+	position: relative;
+	float: left;
+	text-align: center;
+	margin-left: 3.9em;
+}
+
+.money img{
+	height: 100px;
+	width: 100px;
+	border: .5px solid gray;
+	border-radius: 5px;
+}
+
+.money label{
+	font-size: 16px;
+	color: black;
+	margin-left: 0em;
+}
+
+.gcash{
+	position: relative;
+	float: left;
+	text-align: center;
+	margin-left: 3.7em;
+}
+
+.gcash img{
+	height: 100px;
+	width: 100px;
+	border: .5px solid gray;
+	border-radius: 5px;
+}
+
+.gcash label{
+	font-size: 16px;
+	color: black;
+	margin-left: 0em;
+}
+
+.paypal:hover, .western:hover, .cebuana:hover, .ml:hover, .money:hover, .gcash:hover img{
+	opacity: 0.3;
+}
