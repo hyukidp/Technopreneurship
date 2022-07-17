@@ -1,0 +1,106 @@
+<!--   DASIGAN AMD SUZUKI
+       BSIT 3-2           
+	   IPAY, PROMOS   -->
+
+       <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+       <html xmlns="http://www.w3.org/1999/xhtml">
+       <head>
+       <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+       <title>Promos</title>
+       <link rel="stylesheet" href="rewards.css">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       </head> 
+       
+       <body>
+        <div class="top_border">
+            <a href="services_ipay.php"> <img src="logo.png"></a>
+            <button onclick="location.href='signin.html'" type="button">Logout</button>
+        </div>
+    
+        <button class="button-1" onclick="location.href='services_ipay.php'">Dashboard</button>
+        <button class="button-2" onclick="location.href='aboutus.html'">About us</button>
+        <button class="button-3" onclick="location.href='contacts.html'">Contacts</button>
+        
+        <div class="container">
+            <p>PROMOS</p>
+            <label> See iPay promos where you can earn and win big prizes! </label> <br> <br>
+            <label11>Ongoing promos</label11>
+
+            <div class="messages">
+                <label1 id="transaction_one">iPay Raffle Promo</label1> <br>
+                <label2 id="date_one"> Join the iPay Raffle Promo and get a chance to...</label2>
+                <button class="button" id="button1"> Details </button>
+            </div>
+
+            <div class="messages1">
+                <label6 id="transaction_two">PHP 10, 000.00 Cashback</label7> <br>
+                <label7 id="date_two"> Get a chance to win up to 10, 000.00 when you...</label7>
+                <button class="button-1" id="button2"> Details </button>
+            </div>
+
+            <div class="messages2">
+                <label12 id="transaction_three">PHP 100.00 OFF</label12> <br>
+                <label13 id="date_three"> Enjoy great discounts and offs on your favo...</label13>
+                <button class="button-2" id="button3"> Details </button>
+            </div>
+			
+            <div class="popup">
+                <div class="popup-content">
+                <label3>1. The promotion is valid only from July 1 to July 31, 2022.</label3><br>
+                <label4>2. Promo is applicable for users who bought load worth 500 through iPay. </label4><br>
+                <label5>3. Announcement of winners of PHP 10, 000.00 will be on August 1, 2022.</label5><br>
+                    <button id="btn">Close</button>
+                </div>
+            </div>
+			
+            <div class="popup1">
+                <div class="popup-content1">
+                <label8>1. The promotion is open to all new and existing iPay users who paid their bills up to worth PHP 5, 000.00</label8><br>
+                <label9>2. Promo period runs from June 2022 to September 2022. </label9><br>
+                <label10>3. Announcement of winners will be on the first day of the succeeding months.</label10><br>
+                    <button id="btn">Close</button>
+                </div>
+            </div>
+
+            <div class="popup2">
+                <div class="popup-content2">
+                <label14>1. The promotion is open to all new and existing iPay users who spend at least PHP 2, 000.00 for the last week.</label14><br>
+                <label15>2. Promo period runs from to July 18, 2022 only. </label15><br>
+                <label16>3. Announcement of winners will be on July 20, 2022.</label16><br>
+                    <button id="btn">Close</button>
+                </div>
+            </div>
+    
+        </div>
+		   
+        <script>
+            document.getElementById("button1").addEventListener("click",function(){
+                document.querySelector(".popup").style.display = "flex";
+                })
+            document.querySelector(".popup").addEventListener("click", function(){
+                    document.querySelector(".popup").style.display = "none";
+            })
+        </script>
+
+        <script>
+            document.getElementById("button2").addEventListener("click",function(){
+                document.querySelector(".popup1").style.display = "flex";
+                })
+            document.querySelector(".popup1").addEventListener("click", function(){
+                document.querySelector(".popup1").style.display = "none";
+            })
+        </script>
+
+        <script>
+            document.getElementById("button3").addEventListener("click",function(){
+                document.querySelector(".popup2").style.display = "flex";
+                })
+            document.querySelector(".popup2").addEventListener("click", function(){
+                document.querySelector(".popup2").style.display = "none";
+            })
+        </script>
+
+
+    </body>
+</html>
+       

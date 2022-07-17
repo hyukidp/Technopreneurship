@@ -1,0 +1,60 @@
+<!--   DASIGAN AMD SUZUKI
+       BSIT 3-2           
+	   IPAY, REQUEST MONEY   -->
+
+       <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+       <html xmlns="http://www.w3.org/1999/xhtml">
+       <head>
+       <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+       <title>Request Money</title>
+       <link rel="stylesheet" href="request.css">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       </head>
+       
+       <body>
+        <div class="top_border">
+            <a href="services_ipay.php"> <img src="logo.png"></a>
+            <button onclick="location.href='signin.php'" type="button">Logout</button>
+        </div>
+    
+        <button class="button-12" onclick="location.href='services_ipay.php'">Dashboard</button>
+        <button class="button-13" onclick="location.href='aboutus.html'">About us</button>
+        <button class="button-14" onclick="location.href='contacts.html'">Contacts</button>
+        
+        <div class="container">
+            <p>REQUEST MONEY</p>
+            
+            <div class="name">
+                <label>Grantor's Name</label> <br>
+                <input type="text" placeholder="First Name">
+                <input type="text" placeholder="Middle Name">
+                <input type="text" placeholder="Last Name">
+            </div>
+            
+            <div class="number">
+                <label>Grantor's Number</label> <br>
+                <input type="number" placeholder="Enter Mobile Number">
+            </div>
+
+            <div class="amount">
+                <label>Enter Requested amount</label>
+                <input type="number" placeholder="0.00 PHP"><br>
+            </div>
+            
+            <div class="receipt"> <br>
+                <label>Additional Message</label>
+                <input type="text" placeholder="Enter message here">
+            </div>
+            
+            <div class="send_btn">
+                <label>The recipient's name is requested for validation. <br>
+                       Please make sure that the information entered is correct <br>
+                       because the transaction cannot be reversed once submitted.
+                </label><br>
+                <button type="button">SEND REQUEST</button>
+            </div>
+    
+        </div>
+    </body>
+</html>
+       

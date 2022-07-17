@@ -1,0 +1,457 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color:beige;
+}
+
+.top_border{
+	position: absolute;
+	height: 90px;
+	width: 100.4%;
+	background: #f4b73a;
+	margin: none;
+	margin-left: -0.5em;
+}
+
+.top_border img{
+	width: 120px;
+	height: 70px;
+	margin-top: 12px;
+	margin-left: 34em;
+}
+
+.top_border button{
+	position:  relative;
+	text-align:center;
+	top: -1.2em;
+	left: 23em;
+	font-size: 24px;
+	color: #f4b73a;
+	background-color: black;
+	width: 120px;
+	height: 40px;
+	border-radius: 14px;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	border: none;
+}
+
+.button-1{
+	position: relative;
+	text-align: center;
+	top: 1.2em;
+	left: 29em;
+	font-size: 24px;
+	color: black;
+	background-color: #f4b73a;
+	width: 120px;
+	height: 40px;
+	border-radius: 14px;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	border: none;
+}
+
+.button-2{
+	position: relative;
+	text-align: center;
+	top: 1.2em;
+	left: 31em;
+	font-size: 24px;
+	color: black;
+	background-color: #f4b73a;
+	width: 120px;
+	height: 40px;
+	border-radius: 14px;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	border: none;
+}
+
+.button-3{
+	position: relative;
+	text-align: center;
+	top: 1.2em;
+	left: 32.5em;
+	font-size: 24px;
+	color: black;
+	background-color: #f4b73a;
+	width: 120px;
+	height: 40px;
+	border-radius: 14px;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	border: none;
+}
+
+.container{
+	position: absolute;
+  	top: 54%;
+  	left: 50%;
+	width: 500px;
+	height: 750px;
+	transform: translate(-50%, -50%);
+	background-color: white;
+	border-radius: 10px;
+	opacity: 1.5;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.container p{
+	font-family: 'Roboto', sans-serif;
+	color: black;
+	position:  relative;
+	font-size: 26px;
+	font-weight: bold;
+	margin-left: 0em;
+	text-align: center;
+	margin-top: 1.5em;
+	margin-bottom: 0.6em;
+}
+
+.container label{
+	color: black;
+	opacity: 0.4;
+	position:  relative;
+	font-size: 16px;
+	margin-left: 4.2em;
+	text-align: center;
+	align-content: center;
+}
+
+.container label11{
+	color: black;
+	position:  relative;
+	font-size: 22px;
+	margin-left: 3.1em;
+	top: 8px;
+	text-align: center;
+	align-content: center;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+}
+
+
+.messages{
+	width: 350px;
+	height: 90px;
+	background-color: white;
+	margin-top: 1em;
+	margin-left: 4.5em;
+	border: none;
+	border-bottom: 2px solid silver;
+}
+
+.messages label1{
+	font-family: 'Roboto', sans-serif;
+	color: black;
+	position:  relative;
+	font-size: 16px;
+	margin-left: 0.2em;
+	top: 20px;
+	font-weight: bold;
+}
+
+.messages label2{
+	font-family: 'Roboto', sans-serif;
+	color: black;
+	position:  relative;
+	font-size: 16px;
+	margin-left: 0em;
+	top: 40px;
+}
+
+.messages button{
+	font-family: 'Roboto', sans-serif;
+	margin-left: 17.6em;
+	margin-top: -1.2em;
+	background: none;
+	border: none;
+	font-size: 16px;
+	color: black;
+}
+
+.popup-content{
+	height: 180px;
+	width: 400px;
+	background: #fff;
+	padding: 20px;
+	border-radius: 5px;
+	position: relative;
+}
+
+.popup{
+	display: flex;
+    background: #ffffff;
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+    border-radius: 5px;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.popup-content label3{
+	font-family: 'Roboto', sans-serif;
+	color: #000000;
+	position: relative;
+	top: 10px;
+	left: 10px;
+	font-weight: bold;
+	
+}
+
+.popup-content label4{
+	font-family: 'Roboto', sans-serif;
+	color: #000000;
+	position: relative;
+	top: 20px;
+	left: 10px;
+	font-weight: bold;
+}
+
+.popup-content label5{
+	font-family: 'Roboto', sans-serif;
+	color: #000000;
+	position: relative;
+	top: 30px;
+	left: 10px;
+	font-weight: bold;
+}
+
+.popup-content button{
+	font-family: 'Roboto', sans-serif;
+	position: relative;
+	top: 40px;
+	left: 40%;
+	width: 80px;
+	height: 25px;
+	color: #f4b73a;
+	background-color: black;
+	border-radius: 3px;
+	text-decoration: none;
+	border: none;
+}
+
+button:hover {
+	opacity: 0.5;
+}
+
+.messages1{
+	width: 350px;
+	height: 90px;
+	background-color: white;
+	margin-top: 1em;
+	margin-left: 4.5em;
+	border: none;
+	border-bottom: 2px solid silver;
+}
+
+.messages1 label6{
+	font-family: 'Roboto', sans-serif;
+	color: black;
+	position:  relative;
+	font-size: 16px;
+	margin-left: 0.2em;
+	top: 20px;
+	font-weight: bold;
+}
+
+.messages1 label7{
+	font-family: 'Roboto', sans-serif;
+	color: black;
+	position:  relative;
+	font-size: 16px;
+	margin-left: 0.2em;
+	font-weight: 400;
+	top: 10px;
+}
+
+.messages1 button{
+	font-family: 'Roboto', sans-serif;
+	margin-left: -35em;
+	background: none;
+	border: none;
+	font-size: 16px;
+	color: black;
+	font-weight: 400;
+	top: -30px;
+}
+
+.popup-content1{
+	height: 180px;
+	width: 400px;
+	background: #fff;
+	padding: 20px;
+	border-radius: 5px;
+	position: relative;
+}
+
+.popup1{
+	display: flex;
+    background: #ffffff;
+    width: 400px;
+    height: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+    border-radius: 5px;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.popup-content1 label8{
+	font-family: 'Roboto', sans-serif;
+	color: #000000;
+	position: relative;
+	top: 10px;
+	left: 10px;
+	font-weight: bold;
+	
+}
+
+.popup-content1 label9{
+	font-family: 'Roboto', sans-serif;
+	color: #000000;
+	position: relative;
+	top: 20px;
+	left: 10px;
+	font-weight: bold;
+}
+
+.popup-content1 label10{
+	font-family: 'Roboto', sans-serif;
+	color: #000000;
+	position: relative;
+	top: 30px;
+	left: 10px;
+	font-weight: bold;
+}
+
+.popup-content1 button{
+	font-family: 'Roboto', sans-serif;
+	position: relative;
+	top: 45px;
+	left: 40%;
+	width: 80px;
+	height: 25px;
+	color: #f4b73a;
+	background-color: black;
+	border-radius: 3px;
+	text-decoration: none;
+	border: none;
+}
+
+.messages2{
+	width: 350px;
+	height: 90px;
+	background-color: white;
+	margin-top: 1em;
+	margin-left: 4.5em;
+	border: none;
+	border-bottom: 2px solid silver;
+}
+
+.messages2 label12{
+	font-family: 'Roboto', sans-serif;
+	color: black;
+	position:  relative;
+	font-size: 16px;
+	margin-left: 0.2em;
+	top: 20px;
+	font-weight: bold;
+}
+
+.messages2 label13{
+	font-family: 'Roboto', sans-serif;
+	color: black;
+	position:  relative;
+	font-size: 16px;
+	margin-left: 0.2em;
+	font-weight: 400;
+	top: 30px;
+}
+
+.messages2 button{
+	font-family: 'Roboto', sans-serif;
+	margin-left: -35.6em;
+	background: none;
+	border: none;
+	font-size: 16px;
+	color: black;
+	font-weight: 400;
+	top: -13px;
+}
+
+.popup-content2{
+	height: 180px;
+	width: 400px;
+	background: #fff;
+	padding: 20px;
+	border-radius: 5px;
+	position: relative;
+}
+
+.popup2{
+	display: flex;
+    background: #ffffff;
+    width: 400px;
+    height: 210px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+    border-radius: 5px;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.popup-content2 label14{
+	font-family: 'Roboto', sans-serif;
+	color: #000000;
+	position: relative;
+	top: 10px;
+	left: 10px;
+	font-weight: bold;
+	
+}
+
+.popup-content2 label15{
+	font-family: 'Roboto', sans-serif;
+	color: #000000;
+	position: relative;
+	top: 20px;
+	left: 10px;
+	font-weight: bold;
+}
+
+.popup-content2 label16{
+	font-family: 'Roboto', sans-serif;
+	color: #000000;
+	position: relative;
+	top: 30px;
+	left: 10px;
+	font-weight: bold;
+}
+
+.popup-content2 button{
+	font-family: 'Roboto', sans-serif;
+	position: relative;
+	top: 45px;
+	left: 40%;
+	width: 80px;
+	height: 25px;
+	color: #f4b73a;
+	background-color: black;
+	border-radius: 3px;
+	text-decoration: none;
+	border: none;
+}
+
