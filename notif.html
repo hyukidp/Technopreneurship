@@ -1,0 +1,140 @@
+<!--   DASIGAN AMD SUZUKI
+       BSIT 3-2           
+	   IPAY, INBOX   -->
+
+       <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+       <html xmlns="http://www.w3.org/1999/xhtml">
+       <head>
+       <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+       <title>Inbox</title>
+       <link rel="stylesheet" href="notif.css">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       </head> 
+       
+       <body>
+        <div class="top_border">
+            <a href="services_ipay.php"> <img src="logo.png"></a>
+            <button onclick="location.href='signin.html'" type="button">Logout</button>
+        </div>
+    
+        <button class="button-12" onclick="location.href='services_ipay.php'">Dashboard</button>
+        <button class="button-13" onclick="location.href='aboutus.html'">About us</button>
+        <button class="button-14" onclick="location.href='contacts.html'">Contacts</button>
+        
+        <div class="container">
+            <p>TRANSACTION HISTORY</p>
+            <label> See your latest transaction here. Please note that some may </label>
+            <label1> take 24 hours before being posted.</label1>
+            <label2> Transactions as of 2022-07-18</label2>
+
+            <div class="messages">
+                <label3 id="transaction_one"> Request money</label3> <br>
+                <label4 id="date_one"> 2022-07-13</label4>
+                <label5 id="amount_one"> +700 </label5>
+                <button class="button" id="button1"> Details </button>
+            </div>
+
+            <div class="messages1">
+                <label6 id="transaction_two"> Send money</label6> <br>
+                <label7 id="date_two"> 2022-07-11</label7>
+                <label8 id="amount_one"> -250 </label8>
+                <button class="button" id="button2"> Details </button>
+            </div>
+
+            <div class="messages2">
+                <label9 id="transaction-three"> Send money</label9> <br>
+                <label10 id="date_three"> 2022-07-06</label10>
+                <label11 id="amount_one"> -400 </label11>
+                <button class="button" id="button3"> Details </button>
+            </div>
+
+            <div class="messages3">
+                <label12 id="transaction-four"> Buy load</label12> <br>
+                <label13 id="date_four">  2022-07-06</label13>
+                <label14 id="amount_one"> -100 </label14>
+                <button class="button" id="button4"> Details </button>
+            </div>
+			
+            <div class="popup">
+                <div class="popup-content">
+                <label15 >Type of Transaction: Request money</label15><br>
+                <label16>Date: 2022-07-13</label16><br>
+                <label17>Amount: +700</label17><br>
+                <label18>Reference Number: 23824634</label18><br>
+                    <button class="close" id="btn">Close</button>
+                </div>
+            </div>
+
+            <div class="popup1">
+                <div class="popup-content1">
+                <label19>Type of Transaction: Send money</label19><br>
+                <label20>Date: 2022-07-11</label20><br>
+                <label21>Amount: -250</label21><br>
+                <label22>Reference Number: 13214643</label22><br>
+                    <button class="close" id="btn">Close</button>
+                </div>
+            </div>
+
+            <div class="popup2">
+                <div class="popup-content2">
+                <label23>Type of Transaction: Send money</label23><br>
+                <label24>Date: 2022-07-06</label24><br>
+                <label25>Amount: -400</label25><br>
+                <label26>Reference Number: 25114513</label26><br>
+                    <button class="close" id="btn">Close</button>
+                </div>
+            </div>
+
+            <div class="popup3">
+                <div class="popup-content3">
+                <label27>Type of Transaction: Buy load</label27><br>
+                <label28>Date: 2022-07-06</label28><br>
+                <label29>Amount: -100</label29><br>
+                <label30>Reference Number: 89614411</label30><br>
+                    <button class="close" id="btn">Close</button>
+                </div>
+            </div>
+    
+        </div>
+		   
+        <script>
+            document.getElementById("button1").addEventListener("click",function(){
+                document.querySelector(".popup").style.display = "flex";
+                })
+            document.querySelector(".popup").addEventListener("click", function(){
+                    document.querySelector(".popup").style.display = "none";
+            })
+        </script>
+
+        <script>
+            document.getElementById("button2").addEventListener("click",function(){
+                document.querySelector(".popup1").style.display = "flex";
+                })
+            document.querySelector(".popup1").addEventListener("click", function(){
+                 document.querySelector(".popup1").style.display = "none";
+            })
+        </script>
+
+        <script>
+            document.getElementById("button3").addEventListener("click",function(){
+                document.querySelector(".popup2").style.display = "flex";
+                 })
+            document.querySelector(".popup2").addEventListener("click", function(){
+                document.querySelector(".popup2").style.display = "none";
+            })
+        </script>
+
+<script>
+    document.getElementById("button4").addEventListener("click",function(){
+        document.querySelector(".popup3").style.display = "flex";
+         })
+    document.querySelector(".popup3").addEventListener("click", function(){
+        document.querySelector(".popup3").style.display = "none";
+    })
+</script>
+
+
+
+    </body>
+</html>
+       
