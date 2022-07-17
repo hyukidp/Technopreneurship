@@ -1,0 +1,55 @@
+<!--   DASIGAN AMD SUZUKI
+       BSIT 3-2           
+	   IPAY, SIGN IN   -->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Sign in</title>
+<link rel="stylesheet" href="signin.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script async src="/cdn-cgi/bm/cv/669835187/api.js"></script></head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<body>
+	
+	<div class="left">
+		<p> Log in </p>
+		<p class="acc"> your account </p>
+		
+		<div class="inputs">
+			<form method="post" action="signin.php">	
+				<br><label class="email">Email Address</label><br/>
+				<i class="fa fa-envelope fa-lg fa-fw" aria-hidden="true"></i>
+				<input type="text" id = "passengerEmail" name = "passengerEmail" placeholder="Enter Email Address" required autocomplete="off"
+                readonly onfocus="this.removeAttribute('readonly');" ,  onfocusout ="this.setAttribute('readonly','readonly');" required>
+		
+				<br><label class="password">Password</label><br/>
+				<i class="fa fa-lock fa-lg fa-fw" aria-hidden="true"></i>
+				<input type="password"  id = "passengerPassword" name = "passengerPassword" placeholder="Enter Password" required autocomplete="off"
+                readonly onfocus="this.removeAttribute('readonly');" ,  onfocusout ="this.setAttribute('readonly','readonly');" required>
+				
+				<div class="input_buttons">
+					<button type="submit" id="login" class="input_buttons">Log in</button> <br>
+				</div>
+			</form>
+		</div>
+
+		<div class="left_text">
+			<h1>Dont have an account? <a href="signup.html">Sign up</a></h1>
+			<h2>Log in as <a href="signin-admin.html">Admin</a></h2>
+			
+		</div>
+	</div>
+	
+	<div class="right">
+		<div class="right_text">
+			<div class="logo">
+				<img src="logoblack1.png" alt="logo">
+				<h1>Pay</h1>
+				<h2>PROVIDING THE BEST THINGS ONLINE.</h2>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
