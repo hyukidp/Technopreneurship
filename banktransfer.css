@@ -1,0 +1,286 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color:beige;
+}
+
+.top_border{
+	position: absolute;
+	height: 90px;
+	width: 100.4%;
+	background: #f4b73a;
+	margin: none;
+	margin-left: -0.5em;
+}
+
+.top_border img{
+	width: 120px;
+	height: 70px;
+	margin-top: 12px;
+	margin-left: 34em;
+}
+
+.top_border button{
+	position:  relative;
+	text-align:center;
+	top: -1.2em;
+	left: 23em;
+	font-size: 24px;
+	color: #f4b73a;
+	background-color: black;
+	width: 120px;
+	height: 40px;
+	border-radius: 14px;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	border: none;
+}
+
+.button-12{
+	position: relative;
+	text-align: center;
+	top: 1.2em;
+	left: 29em;
+	font-size: 24px;
+	color: black;
+	background-color: #f4b73a;
+	width: 120px;
+	height: 40px;
+	border-radius: 14px;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	border: none;
+}
+
+.button-13{
+	position: relative;
+	text-align: center;
+	top: 1.2em;
+	left: 31em;
+	font-size: 24px;
+	color: black;
+	background-color: #f4b73a;
+	width: 120px;
+	height: 40px;
+	border-radius: 14px;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	border: none;
+}
+
+.button-14{
+	position: relative;
+	text-align: center;
+	top: 1.2em;
+	left: 32.5em;
+	font-size: 24px;
+	color: black;
+	background-color: #f4b73a;
+	width: 120px;
+	height: 40px;
+	border-radius: 14px;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	border: none;
+}
+
+.vertical-menu{
+	top: 140px;
+	left: 95px;
+	align-content: center;
+	position: absolute;
+	width: 300px;
+	height: 60px;
+	overflow-y: auto;
+	font-family: 'Roboto', sans-serif;
+}
+
+.vertical-menu select{
+	width: 250px;
+	height: 37px;
+	margin-left: 1.3em;
+	background-color: white;
+	color: black;
+	font-size: 23px;
+	cursor: pointer;
+	top:-30px;
+	border-radius: 10px;
+}
+
+.dropdown select:hover, .dropdown select:focus{
+	outline: none;
+}
+
+.container{
+	position: absolute;
+  	top: 54%;
+  	left: 50%;
+	width: 500px;
+	height: 750px;
+	transform: translate(-50%, -50%);
+	background-color: white;
+	border-radius: 10px;
+	opacity: 1.5;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.container p{
+	font-family: 'Roboto', sans-serif;
+	color: black;
+	position:  relative;
+	font-size: 26px;
+	font-weight: bold;
+	margin-left: 0.1em;
+	text-align: center;
+	margin-top: 2em;
+}
+
+.amount{
+	top: 70px;
+	position: relative;
+	align-content: center;
+	text-align: center;
+}
+
+.amount input{
+	border: none;
+	border-bottom: 2px solid silver;
+	font-size: 17px;
+	width: 200px;
+	text-align: right;
+	margin-bottom: 0.2em;
+	
+}
+
+.amount input::placeholder{
+	text-align: right;
+}
+
+.amount input:focus { 
+    outline: none;
+}
+
+.amount label1{
+	color: gray;
+	
+}
+
+.name{
+	position: relative;
+	align-content: center;
+	text-align: center;
+	top: 120px;
+}
+.name input{
+	border: none;
+	border-bottom: 2px solid silver;
+	font-size: 17px;
+	width: 390px;
+	margin-top: 0.3em;
+}
+
+.name input:focus { 
+    outline: none;
+}
+
+.name label{
+	margin-left: -0.2em;
+	font-size: 20px;
+}
+
+.name label1{
+	color: gray;
+	margin-left: 8em;
+	opacity: 0.5;
+}
+
+.number{
+	position: relative;
+	align-content: center;
+	text-align: center;
+	top: 150px;
+}
+.number input{
+	border: none;
+	border-bottom: 2px solid silver;
+	font-size: 17px;
+	width: 390px;
+	margin-top: 0.3em;
+}
+
+.number input:focus { 
+    outline: none;
+}
+
+.number label{
+	margin-left: -0.2em;
+	font-size: 20px;
+}
+
+.number label1{
+	color: gray;
+	margin-left: 12em;
+	opacity: 0.5;
+}
+
+.receipt{
+	position: relative;
+	align-content: center;
+	text-align: center;
+	top: 180px;
+}
+.receipt input{
+	border: none;
+	border-bottom: 2px solid silver;
+	font-size: 17px;
+	width: 390px;
+	margin-top: 0.3em;
+}
+
+.receipt input:focus { 
+    outline: none;
+}
+
+.receipt label{
+	margin-left: -0.2em;
+	font-size: 20px;
+}
+
+.receipt label1{
+	color: gray;
+	margin-left: 7em;
+	opacity: 0.5;
+}
+
+button:hover {
+	opacity: 0.6;
+  }
+
+.send_btn{
+	position: relative;
+	align-content: center;
+	text-align: center;
+	top: 220px;
+}
+
+.send_btn label{
+	color: gray;
+	font-size: 14px;
+}
+.send_btn button{
+	position:  relative;
+	margin-top: 1em;
+	text-align:center;
+	font-size: 20px;
+	color: black;
+	background-color: #f4b73a;
+	width: 180px;
+	height: 40px;
+	border-radius: 14px;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	border: none;
+}

@@ -1,0 +1,50 @@
+<!--   DASIGAN AMD SUZUKI
+       BSIT 3-2           
+	   IPAY, AUTHENTICATION   -->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Authentication</title>
+<link rel="stylesheet" href="authentication.css">
+</head>
+
+<body>
+	<div class="container">
+
+	<div class="logo">
+		<img src="logoyellow.png" alt="logo"> <br>
+	</div>
+	
+	<div class="toptext">
+		<p>Verify your account by entering the <br>
+			6-digit code that was sent to your email<br>
+		</p>
+	</div>
+	
+	<div class="enter_text">
+		<p>Please enter the authentication code.</p>
+	</div>
+	
+	<div class="otp">
+		<input type="text"  id = "number_one" name = "number_one" placeholder="0" maxlength="1" onkeyup="numbersOnly(this)"  required>
+		<input type="text"  id = "number_two" name = "number_two" placeholder="0" maxlength="1" onkeyup="numbersOnly(this)"  required>
+		<input type="text"  id = "number_three" name = "number_three" placeholder="0" maxlength="1" onkeyup="numbersOnly(this)"  required>
+		<input type="text"  id = "number_four" name = "number_four" placeholder="0" maxlength="1" onkeyup="numbersOnly(this)"  required>
+		<input type="text"  id = "number_five" name = "number_five" placeholder="0" maxlength="1" onkeyup="numbersOnly(this)"  required>
+		<input type="text"  id = "number_six" name = "number_six" placeholder="0" maxlength="1" onkeyup="numbersOnly(this)"  required>
+	</div>
+
+	<div class="enter_btn">
+		<button type="button"><a href="services_ipay.php">ENTER</a></button>
+	</div>
+	
+	<div class="resend_otp">
+		<p>Didn't get the code?<a href="https://www.youtube.com">   Click here to resend</a><br>
+		</p>
+	</div>
+		
+	</div>
+</body>
+</html>

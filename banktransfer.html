@@ -1,0 +1,75 @@
+<!--   DASIGAN AMD SUZUKI
+       BSIT 3-2           
+	   IPAY, BANK TRANSFER  -->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Bank Transfer</title>
+	<link rel="stylesheet" href="banktransfer.css">
+</head>
+
+<body>
+	<div class="top_border">
+		<a href="services_ipay.php"> <img src="logo.png"></a>
+		<button onclick="location.href='signin.html'" type="button">Logout</button>
+	</div>
+
+	<button class="button-12" onclick="location.href='services_ipay.php'">Dashboard</button>
+	<button class="button-13" onclick="location.href='aboutus.html'">About us</button>
+	<button class="button-14" onclick="location.href='contacts.html'">Contacts</button>
+	
+	<div class="container">
+		<p>BANK TRANSFER</p>
+		
+		<div class="vertical-menu">
+			<select class="select" name="dropdown" id="dropdown">
+				<option disabled selected>Choose Bank</option>
+				<option value="AUB">AUB</option>
+				<option value="BDO">BDO</option>
+				<option value="BPI">BPI</option>
+				<option value="PNB">PNB</option>
+				<option value="PNB">PSB</option>
+				<option value="Citybank">Citybank</option>
+				<option value="Chinabank">China Bank</option>
+				<option value="Eastwest">Eastwest Bank</option>
+				<option value="Landbank">Land Bank</option>	
+				<option value="Security">Security Bank</option>	
+				<option value="Union">Union Bank</option>			
+			</select>	
+		</div>
+		
+		<div class="amount">
+			<p>Enter Amount</p>
+			<label>PHP</label>
+			<input type="number" placeholder="0.00"><br>
+			<label1>Max of PHP 100,000.00</label1>
+		</div>
+		
+		<div class="name">
+			<label>Account Name</label>
+			<label1>Max of 30 characters</label1><br>
+			<input type="text">
+		</div>
+		
+		<div class="number">
+			<label>Account Number</label>
+			<label1>10 Digits</label1><br>
+			<input type="number">
+		</div>
+		
+		<div class="receipt">
+			<label>Send Receipt to</label>
+			<label1>Enter Email (Optional)</label1><br>
+			<input type="text">
+		</div>
+		
+		<div class="send_btn">
+			<label>A PHP 5.00 fee will be charged per transaction.</label><br>
+			<button type="button">SEND MONEY</button>
+		</div>
+
+	</div>
+</body>
+</html>
