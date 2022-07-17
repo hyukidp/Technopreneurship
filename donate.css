@@ -1,0 +1,167 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color:beige;
+}
+
+.top_border{
+	position: absolute;
+	height: 90px;
+	width: 100.4%;
+	background: #f4b73a;
+	margin: none;
+	margin-left: -0.5em;
+}
+
+.top_border img{
+	width: 120px;
+	height: 70px;
+	margin-top: 12px;
+	margin-left: 34em;
+}
+
+.top_border button{
+	position:  relative;
+	text-align:center;
+	top: -1.2em;
+	left: 23em;
+	font-size: 24px;
+	color: #f4b73a;
+	background-color: black;
+	width: 120px;
+	height: 40px;
+	border-radius: 14px;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	border: none;
+}
+
+.button-12{
+	position: relative;
+	text-align: center;
+	top: 1.2em;
+	left: 29em;
+	font-size: 24px;
+	color: black;
+	background-color: #f4b73a;
+	width: 120px;
+	height: 40px;
+	border-radius: 14px;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	border: none;
+}
+
+.button-13{
+	position: relative;
+	text-align: center;
+	top: 1.2em;
+	left: 31em;
+	font-size: 24px;
+	color: black;
+	background-color: #f4b73a;
+	width: 120px;
+	height: 40px;
+	border-radius: 14px;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	border: none;
+}
+
+.button-14{
+	position: relative;
+	text-align: center;
+	top: 1.2em;
+	left: 32.5em;
+	font-size: 24px;
+	color: black;
+	background-color: #f4b73a;
+	width: 120px;
+	height: 40px;
+	border-radius: 14px;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	border: none;
+}
+
+.container{
+	position: absolute;
+  	top: 54%;
+  	left: 50%;
+	width: 500px;
+	height: 750px;
+	transform: translate(-50%, -50%);
+	background-color: white;
+	border-radius: 10px;
+	opacity: 1.5;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.container p{
+	font-family: 'Roboto', sans-serif;
+	color: black;
+	position:  relative;
+	font-size: 18px;
+	margin-left: 0.6em;
+	text-align: center;
+	margin-top: 1.5em;
+}
+
+.container img{
+	height: 100px;
+	width: 170px;
+	margin-top: 2em;
+	margin-left: 9.5em;
+}
+
+.container label{
+	font-family: 'Roboto', sans-serif;
+	color: black;
+	position:  relative;
+	font-size: 35px;
+	margin-left: 3.5em;
+	font-weight: bold;
+}
+
+.donation img{
+	height: 600px;
+	width: 900px;
+	margin-top: -6.8em;
+	margin-left: -13.5em;
+}
+
+.donation label{
+	font-family: 'Roboto', sans-serif;
+	color: black;
+	position:  relative;
+	font-size: 18px;
+	margin-left: 0.6em;
+	text-align: center;
+	top: -220px;
+	margin-left: 4em;
+	font-weight: 300;
+}
+
+button:hover {
+	opacity: 0.6;
+}
+
+
+.send_btn button{
+	position:  relative;
+	margin-top: -8.5em;
+	margin-left: 8em;
+	text-align:center;
+	font-size: 20px;
+	color: #f4b73a;
+	background-color: black;
+	width: 180px;
+	height: 40px;
+	border-radius: 14px;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	border: none;
+}
